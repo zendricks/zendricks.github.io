@@ -1,0 +1,105 @@
+*{
+     margin:0;
+     padding: 0;
+
+ }
+ .load{
+     animation: slide 2s;
+ }
+ .slider{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+     animation: slide 40s infinite;
+     background-position: center;
+ }
+ .content{
+     color: #fff;
+     width: 100%;
+     height: 100vh;
+       background-color: rgba(0,0,0,0.5);
+ }
+ .principal{
+     margin-top:170px;
+     margin-bottom:30px;
+     left: 90px;
+     transition: translate(-50%,-50%);
+     position: absolute;
+     letter-spacing: 5px;
+     text-align: center;
+ }
+ .principal h1{
+     font-size: 2.2rem;
+     margin-bottom: 20px;
+     font-family: "Montserrat",sans-serif;
+     text-align:right;
+ }
+ .principal p{
+     font-size: 20px;
+
+ }
+h1{
+  text-align: center;
+}
+h2{
+  text-align: left;
+  font-size: 1.25rem;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #AE713F;
+  border-color: #AE713F; }
+
+.btn-primary:hover {
+  background-color: #AE713F;
+  border-color: #AE713F;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+
+ @keyframes slide{
+     0%{
+        background-image: url(solarproject.jpg);
+     }
+     20%{
+         background-image: url(solar2.jpg);
+     }
+     20.1%{
+         background-image: url(solar2.jpg);
+     }
+     40%{
+         background-image: url(solar3.jpg);
+     }
+     40.01%{
+         background-image: url(solar3.jpg);
+     }
+     60.%{
+         background-image: url(pannel1.jpg);
+     }
+     60.01%{
+         background-image: url(pannel1.jpg);
+     }
+     80%{
+       background-image: url(solarproject.jpg);
+    }
+    80.01%{
+      background-image: url(solarproject.jpg);
+    }
+    100%{
+      background-image: url(solar2.jpg);
+    }
+    100.01%{
+      background-image: url(solar2.jpg);﻿
